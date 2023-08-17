@@ -1,0 +1,109 @@
+{  
+    "$schema": "https://json-schema.org/draft/2019-09/schema#",   
+    "type": "object",  
+    "title": "Software",  
+    "description": "Investment Banking",  
+    "additionalProperties": false,  
+    "required": ["action","companyId","companyName","city","companyStatus","companyType","yearFounded","monthFounded","dayFounded","zipCode","officePhone","otherPhone"],  
+    "properties": {  
+        "action": {  
+            "type": "string",  
+            "description": "Operation details parameter"  
+        },  
+		 "companyId": {  
+            "type": "number",  
+            "description": "Company Id"  
+        }, 
+		 "companyName": {  
+            "type": "string",  
+            "description": "Company Name"  
+        },  
+		 "city": {  
+            "type": "string",  
+            "description": " Company Location"  
+        },  
+		 "companyStatus": {  
+            "type": "integer",  
+            "description": "Company Status"  
+        },  
+		 "companyType": {  
+            "type": "integer",  
+            "description": "Company Type"  
+        },
+		"officefax": {   
+            "type": "string",  
+            "maxLength": 50,  
+            "description": "Name of the artist"  
+        },  		
+		"officePhone": {  
+            "type": "string",  
+            "description": "Office Phone"  
+        }, 
+		"otherPhone": {  
+            "type": "string",  
+            "description": "Other Phone"  
+        }, 
+		"simpleIndustry": {  
+            "type": "string",  
+            "description": "simple Industry"  
+        }, 
+		"streetAddress": {  
+            "type": "string",  
+            "description": "Street Address"  
+        }, 
+		"streetAddress2": {  
+            "type": "string",  
+            "description": "street Address2"  
+        }, 
+		"streetAddress3": {  
+            "type": "string",  
+            "description": "street Address3"  
+        }, 
+		"streetAddress4": {  
+            "type": "string",  
+            "description": "street Address4"  
+        }, 
+        "yearFounded": {  
+            "type": "integer",  
+            "description": "Year Founded"  
+        }, 
+		"monthFounded": {  
+            "type": "integer",  
+            "description": "Month Founded"  
+        }, 
+		"dayFounded": {  
+            "type": "integer",  
+            "description": "Day Founded"  
+        }, 
+		"zipCode": {  
+            "type": "integer",  
+            "description": "Zip Code"  
+        }, 
+		"webpage": {  
+            "type": "string",  
+            "description": "Webpage"  
+        }, 
+		"reportingTemplateTypeId": {  
+            "type": "integer",  
+            "description": "Reporting Template Type Id"  
+        }, 
+		"countryId": {  
+            "type": "integer",  
+            "description": "CountryId"  
+        },
+		"stateId": {  
+            "type": "integer",  
+            "description": "State Id"  
+        },
+		
+        "incorporationCountryId": {  
+            "type": "integer",  
+            "description": "incorporationCountryId Country Id"  
+        },
+		"incoroporationStateID": {  
+            "type": "integer",  
+            "description": "Reporting Template Type Id"  
+        },
+		
+    }
+}  
